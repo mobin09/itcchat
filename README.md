@@ -56,10 +56,21 @@ Spring Security
 Spring AI
 Maven
 
-POST /api/chat/messages
+```POST /api/chat/messages
 Content-Type: application/json
 
 {
   "prompt": "What is the best insurance plan for a family?"
 }
+
+## How GitHub Copilot Assisted in This Project
+
+
+- Suggested best practices for structuring Spring Boot applications and configuring security.
+- Provided code snippets for integrating JWT authentication and stateless session management.
+- Helped generate REST controller methods and DTO classes quickly.
+- Offered real-time code completions for Maven dependencies and configuration files.
+- Assisted in writing clear and concise documentation, including setup and usage instructions.
+- Enabled faster debugging by suggesting fixes for common Spring Security issues.
+- Improved productivity by reducing boilerplate code and repetitive tasks.
    
