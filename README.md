@@ -39,3 +39,27 @@ Insurance Helper is a Spring Boot REST API for managing insurance operations. It
    ```sh
    git clone <your-repo-url>
    cd insurancehelper
+
+
+
+
+Add your JWT secret to src/main/resources/application.properties:
+jwt.secret=your-very-secret-key
+Build and run the project:
+./mvnw spring-boot:run
+Access Swagger UI at: http://localhost:8080/swagger-ui.html
+
+Dependencies
+Java 17+
+Spring Boot
+Spring Security
+Spring AI
+Maven
+
+POST /api/chat/messages
+Content-Type: application/json
+
+{
+  "prompt": "What is the best insurance plan for a family?"
+}
+   
